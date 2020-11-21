@@ -1,0 +1,525 @@
+/*ESTILOS PARA EL HOME*/
+
+/*font-family: 'Anton', sans-serif;
+font-family: 'Montserrat', sans-serif;*/
+
+body{
+    width: 100%;
+    background-color: white;
+    margin: ;
+    padding: 0;
+
+}
+.cabezote{
+    width: 100%;
+    background: aqua;
+    
+}
+
+#bot-menu{
+    display: none;
+
+}
+
+.cabezote label{
+    width: 30px;
+    height: 30px;
+    display: block;
+    border: 2px solid white;
+    display: none;
+}
+.cabezote img{
+    width: 100%;
+}
+
+.cabezote label:hover{
+    cursor: pointer;
+    opacity: 0,9;
+
+}
+
+.bmenu{
+    width: 80%;
+    margin:auto;
+display: flex;
+    justify-content: center;
+    padding: 20px;
+    
+}
+
+.bmenu ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.bmenu a{
+    padding: 15px 40px;
+    text-decoration: none;
+   font-family: 'Montserrat', sans-serif;
+    color: #032446;    
+}
+
+.intro{
+    width:100%;
+   margin: auto;
+}
+
+.papa-intro{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    }
+.papa-intro img{
+    width: 100%;
+}
+
+.historia{
+    width: 100;
+    display: flex;
+    
+}
+
+.papa-historia{
+    width: 80%;
+    margin: auto; 
+    display: flex;
+}
+
+.foto-historia{
+    width: 40%;
+    margin: 6% 0% 0 
+}
+
+.foto-historia img{
+    width: 100%;
+    border-radius: 5%;
+}
+
+.texto-historia{
+    width: 80%;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.texto-historia h2{
+  font-family:'Staatliches', cursive; 
+    font-size: 2.5em;
+    color: #032446;
+    text-align: center;
+}
+
+
+.papavideo-u2 {
+    width: 90%;
+    margin: auto;
+    background: aqu
+}
+.elvideo{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-content: center;
+    padding: 0px 0px 10px;
+   
+}
+
+.u2 h1{
+    color: #032446;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    font-family: 'Staatliches', cursive;
+    font-size: 2.5em;
+    margin: auto;
+    padding: 1% 
+}
+.papa-pie{
+    background-color: aqua;
+    width: 100%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.7em;
+}
+
+.pie{
+    width: 100%;
+    height:40px;
+    margin: 0%;
+    background: aqua;
+}
+
+.papa-pie{
+    width: 80%;
+    display: flex;
+    justify-content:space-between;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    padding: 0.6%;
+}
+
+.hijo-pie h3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+/*ESTILOS ORIGEN*/
+.origen{
+    width: 100;
+    display: flex;
+}
+
+.papa-origen{
+    width: 80%;
+    margin: auto; 
+    display: flex;
+}
+
+.foto-origen{
+    width: 70%;
+    margin: 4% 0% 2% 6%; 
+    
+}
+
+.foto-origen img{
+    width: 55%;
+    border-radius: 25px;
+}
+
+.texto-origen{
+    width: 100%;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.texto-origen h2{
+  font-family:'Staatliches', cursive; 
+    font-size: 2.5em;
+    color: #032446;
+    text-align: center;
+}
+
+.origen-espinal{
+    width: 100;
+    display: flex;
+    background-color: rgb(255, 209, 17)
+    
+}
+
+.papa-origen-espinal{
+    width:70%;
+    margin: auto; 
+    display: flex;
+    justify-content: center
+}
+
+.foto-origen-espinal{
+    width: 50%;
+    margin:auto;
+}
+
+.foto-origen-espinal img{
+    width: 120%;
+}
+
+.texto-origen-espinal{
+    width: 30%;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.texto-origen-espinal h2{
+  font-family:'Staatliches', cursive; 
+    font-size: 2.5em;
+    color: #032446;
+    text-align: center;
+}
+
+.vista-pasado{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    
+}
+
+.papa-vista-pasado{
+    width:100%;
+    margin: auto; 
+    display: flex;
+    justify-content: center
+}
+
+.foto-vista-pasado{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0% 0% 0%
+}
+
+.foto-vista-pasado img{
+    width: 50%;
+    padding: 0;
+    margin: 0%;
+
+}
+
+
+.texto-vista-pasado{
+    width: 70%;
+    padding: 2%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.texto-vista-pasado h2{
+  font-family:'Staatliches', cursive; 
+    font-size: 2.5em;
+    color: #032446;
+    text-align: center;
+}
+
+
+/*ESTILOS PASOS*/
+.pasos{
+    width: 100%;
+}
+.papa-pasos{
+    width: 80%;
+}
+
+
+.pasos h1{
+  font-family:'Staatliches', cursive; 
+    font-size: 2.5em;
+    color: #032446;
+    text-align: center;    
+}
+
+.pasos img{
+    width: 100%;
+    padding: 2% 0% 0% 0%
+}
+
+.pasos p{
+    width: 70%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+
+
+.materiales{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+
+}
+
+.papa-materiales img{ 
+    width: 70px;
+    display:inline-block;
+
+}
+
+.papa-materiales h2{
+    width: 100;
+  font-family:'Staatliches', cursive;
+    font-size: 2.3em;
+    color: #032446;
+    text-align: start;
+    text-align: center
+}
+
+.papa-materiales ul{
+    width: 70%;
+    color: gray;
+    font-size: 1.5em;
+    text-align: center;
+    text-decoration:none;
+    list-style-type: none;
+}
+
+.texto-materiales{
+    width: 80%;
+    margin: auto;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-content:center;
+    padding: 0px 0px 0px 5px;
+    
+}
+
+.foto-materiales img{
+    width: 40%;
+    display:flex;
+    margin:0;
+    padding: 10% 0% 0% 0%;
+}
+
+    
+/* ESTILOS RAZONES*/
+.razones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    
+}
+
+.papa-razones{
+    width:80%;
+    margin: auto; 
+    display: flex;
+    justify-content: center
+}
+
+.foto-razones{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0% 0% 0%
+}
+
+.foto-razones img{
+    width: 90%;
+    padding: 0;
+    margin: 0%;
+
+}
+
+
+.texto-razones{
+    width: 70%;
+    padding: 8% 0% 0% 0%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.texto-razones h2{
+    font-size: 2.5em;
+    font-family:'Staatliches', cursive;
+    color: #032446;
+    text-align: center;
+}
+
+.actual {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    
+}
+
+.papa-actual{
+    width:80%;
+    margin: auto; 
+    display: flex;
+    justify-content: center
+}
+
+.foto-actual{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2% 0% 0% 0%
+}
+
+.foto-actual img{
+    width: 55%;
+
+}
+
+
+.texto-actual{
+    width: 70%;
+    padding: 6% 0% 0% 6%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+.texto-actual h2{
+    font-size: 2.5em;
+    font-family:'Staatliches', cursive;
+    color: #032446;
+    text-align: center;
+}
+
+.tips{
+    width: 100%;
+}
+.papa-tips{
+    width: 70%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.papa-tips p{
+    width: 31%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2% 0% 2% 0%;
+    text-align: justify;
+}
+/*ESTILOS PASOS*/
+.hacer{
+    width: 100%;
+}
+
+.papa-hacer{
+    width: 70%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+}
+
+.papa-hacer p{
+    width: 31%;
+    font-family: 'Montserrat', sans-serif;
+    padding: 2% 0% 2% 0%;
+    text-align: justify;
+}
+.hacer h1{
+    font-size: 2.5em;
+    font-family:'Staatliches', cursive;
+    color: #032446;
+    text-align: center;
+    padding: 0%;
+    margin: 0%;
+    
+}
+    
+    
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+ 
+
+
